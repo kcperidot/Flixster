@@ -2,12 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#003D8E8B">
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="300dp"
+        android:layout_width="250dp"
         android:layout_height="100dp"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -17,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#000000"
         android:textSize="24sp"
         tools:text="劇場版「鬼滅の刃」無限列車編" />
 
